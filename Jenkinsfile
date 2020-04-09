@@ -11,12 +11,12 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh 'curl -k https://google.com'
+        sh 'which bash'
       }
     }
     stage('Test') {
       steps {
-        sh './jenkins/scripts/test.sh'
+        sh './jenkins/scripts/remo.sh'
       }
     }
   }
