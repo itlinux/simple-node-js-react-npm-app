@@ -16,7 +16,7 @@ pipeline {
     }
     stage('Test') {
       steps {
-        sh 'curl localhost'
+        sh './jenkins/scripts/test.sh'
       }
     }
   }
