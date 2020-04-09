@@ -11,7 +11,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh 'curl https://google.com'
+        sh 'curl -L https://google.com'
       }
     }
     stage('Test') {
