@@ -12,7 +12,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
   "name": "testremo",
   "version": "0.1" {
   "test": "print ciao"
