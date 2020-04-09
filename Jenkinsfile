@@ -1,7 +1,7 @@
 pipeline {
   agent {
     docker {
-      image 'itlinux:httpd-orange'
+      image 'itlinux/httpd-orange'
       args '-p 80:80'
     }
   }
