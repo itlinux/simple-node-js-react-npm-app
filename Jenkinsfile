@@ -11,7 +11,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh 'ping -c google.com'
+        sh 'ping -c 4 google.com'
       }
     }
     stage('Test') {
