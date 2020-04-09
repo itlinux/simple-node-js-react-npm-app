@@ -11,7 +11,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh 'ping -c 4 google.com'
+        sh 'curl localhost'
       }
     }
     stage('Test') {
