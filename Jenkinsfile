@@ -1,8 +1,8 @@
 pipeline {
   agent {
     docker {
-      image 'node:6-alpine'
-      args '-p 3000:3000'
+      image 'itlinux:httpd-orange'
+      args '-p 80:80'
     }
   }
   environment {
@@ -11,12 +11,12 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh 'npm install'
+        sh 'ping -c google.com'
       }
     }
     stage('Test') {
       steps {
-        sh './jenkins/scripts/test.sh'
+        sh 'curl localhost'
       }
     }
   }
