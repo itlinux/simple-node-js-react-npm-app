@@ -18,4 +18,4 @@ echo 'application renders satisfactorily. This command actually invokes the test
 echo 'runner Jest (https://facebook.github.io/jest/).'
 set -x
 # npm test
-ping -c 4 google.com
+echo 'Ciao Remo Mattei'
