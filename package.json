@@ -14,7 +14,8 @@
     "eject": "react-scripts eject"
   },
   "name": "testremo",
-  "version": "0.1" {
+  "version": "0.1",
+  "scripts": {
   "test": "print ciao"
   }
 }
