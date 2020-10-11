@@ -1,3 +1,3 @@
 echo "Ciao Remo"
 curl https://google.com
-sudo /usr/bin/apt update && sudo /usr/bin/apt-get install terraform
+/usr/bin/apt update && /usr/bin/apt-get install terraform
